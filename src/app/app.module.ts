@@ -8,6 +8,7 @@ import { fakeBackendProvider } from './_helpers';
 import { appRoutingModule } from './app.routing';
 import { JwtInterceptor, ErrorInterceptor } from './_helpers';
 import { AppComponent } from './app.component';
+import { AboutUsComponent } from './aboutus';
 import { HomeComponent } from './home';
 import { LoginComponent } from './login';
 import { RegisterComponent } from './register';
@@ -25,6 +26,7 @@ import { AlertComponent } from './_components';
         HomeComponent,
         LoginComponent,
         RegisterComponent,
+        AboutUsComponent,
         AlertComponent
     ],
     providers: [
@@ -35,4 +37,4 @@ import { AlertComponent } from './_components';
     ],
     bootstrap: [AppComponent]
 })
-export class AppModule { };
+export class AppModule { }
